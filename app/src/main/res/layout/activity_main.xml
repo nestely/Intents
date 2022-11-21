@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#03A9F4"
+    android:orientation="vertical"
+    tools:context=".ActivityA">
+
+    <TextView
+        android:id="@+id/explicitIntent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="explicit intent"
+        android:textSize="40sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btnMoveToB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/move_to_b" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="implicit intent"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnMakeCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="make call" />
+
+    <Button
+        android:id="@+id/btnOpenCallLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open call log" />
+
+    <Button
+        android:id="@+id/btnOpenContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open contacts" />
+
+    <Button
+        android:id="@+id/btnOpenGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open gallery" />
+
+    <Button
+        android:id="@+id/btnOpenCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open camera" />
+
+    <Button
+        android:id="@+id/btnOpenBrowser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open browser" />
+
+    <Button
+        android:id="@+id/btnOpenAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open alarm" />
+
+    <Button
+        android:id="@+id/btnOpenMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open maps" />
+
+</LinearLayout>
